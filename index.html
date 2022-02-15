@@ -1,0 +1,1765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <title>Youtube Clone</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-left">
+      <i class="material-icons">menu</i>
+      <img src="./assets/youtube.png" alt="youtube" class="logo">
+    </div>
+    <div class="header-center">
+      <form>
+        <input type="text" placeholder="Search" />
+        <button>
+          <i class="material-icons">search</i>
+        </button>
+      </form>
+    </div>
+    <div class="header-right">
+      <i class="material-icons">videocam</i>
+      <i class="material-icons">apps</i>
+      <i class="material-icons">notifications</i>
+      <i class="material-icons">account_circle</i>
+    </div>
+  </header>
+  <main class="main">
+    <aside class="slider">
+      <div class="slider-categories">
+        <div class="slider-category active">
+          <i class="material-icons">home</i>
+          <span>Home</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">local_fire_department</i>
+          <span>Trending</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">subscriptions</i>
+          <span>Subscribe</span>
+        </div>
+        <hr />
+        <div class="slider-category">
+          <i class="material-icons">history</i>
+          <span>History</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">play_arrow</i>
+          <span>Your Videos</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">watch_later</i>
+          <span>Watch Later</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">thumb_up
+          </i>
+          <span>Liked Videos</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">arrow_drop_down
+
+          </i>
+          <span>Show More</span>
+        </div>
+        <hr />
+        <h3 style="	text-decoration: none;
+        color: rgb(96, 96, 96);
+        font-size: 1rem;
+        margin: .15rem 1.5rem;">SUBSCRIPTION</h3>
+        <div class="slider-category">
+          <i class="material-icons">account_circle</i>
+
+          <span>The Legend Family</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">account_circle</i>
+
+          <span>VAATHIYAAR</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">account_circle</i>
+
+          <span>A2D Channel</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">account_circle</i>
+
+          <span>Adine Tech</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">account_circle</i>
+
+          <span>API Tamil Comedy</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">account_circle</i>
+
+          <span>ARK Diaries</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">account_circle</i>
+
+          <span>Arun Ennum Naan</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">arrow_drop_down
+
+          </i>
+          <span>Show 60 More</span>
+        </div>
+        <hr />
+        <h3 style="	text-decoration: none;
+        color: rgb(96, 96, 96);
+        font-size: 1rem;
+        margin: .15rem 1.5rem;">MORE FROM YOUTUBE</h3>
+        <div class="slider-category">
+          <i class="material-icons">youtube_searched_for </i>
+          <span>YouTube Premium</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">local_movies
+
+
+          </i>
+          <span>Films</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">videogame_asset
+
+
+          </i>
+          <span>Gaming</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">live_tv
+
+
+          </i>
+          <span>Live</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">change_history
+
+
+          </i>
+          <span>Fashion & Beauty</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">lightbulb_outline
+
+
+          </i>
+          <span>Learning</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">games
+
+
+          </i>
+          <span>Sport</span>
+        </div>
+        <hr />
+        <div class="slider-category">
+          <i class="material-icons">settings
+
+          </i>
+          <span>Settings</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">flag
+
+          </i>
+          <span>Report history</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">help
+
+          </i>
+          <span>Help</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">feedback
+
+
+          </i>
+          <span>Send Feedback</span>
+        </div>
+        <div class="slider-category">
+          <i class="material-icons">arrow_drop_down
+
+
+          </i>
+          <span>Show More</span>
+        </div>
+        <hr />
+      </div>
+    </aside>
+    <article class="videos">
+      <div class="videos-container">
+        <div class="video">
+          <div class="video-thumbnail">
+            <img src="./assets/hqdefault.jpg" alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Bike 650 GT in Tamil
+              </h3>
+              <a href="">
+                Justin
+              </a>
+              <span>10B views . 3 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/NCID9M6Mk2g/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCeIADEVxCgHL5MC1XYDlxMAlDH9Q"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Titanoboa vs Purussaurus in Tamil | டைடனோபோவா vs புருஸாரஸ் | Savage Empire
+              </h3>
+              <a href="">
+                Savage Empire
+              </a>
+              <span>1.5K Views . 3 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://lh4.googleusercontent.com/proxy/AkIjVtt0hmJebg18dPxA7elRPLvFTNHvO76iAkD0dzw1hTeCrb-tyjxdCyu4hM_DzRZkoDbbXKTMOcIn9sak8MD9lW3AizLZ0lXlBoAuVGFkMx6rS9FIKMUfEPxQycasYorJmdwHQhmT=w1152-h603-s-nd"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                OMG it’s Wow Wednesday Sale Alert
+              </h3>
+              <a
+                href="https://mamaearth.in/wow-wednesday-offer?utm_source=google&utm_medium=cpc&utm_term=92272207180&gclid=Cj0KCQiAxoiQBhCRARIsAPsvo-wVeb12oxMheetejq3nQMT2qO_JcdhtsEH53ux4AWgt4mb1IRp1pVQaArCyEALw_wcB">
+                Bag your favorites & get Free Onion Oil & Shampoo + 100 Cashback. Code B2G2CB </a>
+              <span>Ad Mamaearth</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/qH7m9ik3ILs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-fbSXjbiHOI935A5pwcISpERJKQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Learn c++ in Tamil | Complete C++ tutorial in Tamil | OOP's Tutorial in Tamil </h3>
+              <a href="">
+                Tutor Joe's Stanley
+              </a>
+              <span>98K views . 5 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/k5lDRy6qjlA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLfvLOLS9oweuzE--IlHl7cZMXtQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Revised! : Yezdi Roadster Tamil Review | RevNitro </h3>
+              <a href="">
+                RevNitro
+              </a>
+              <span>1.3K views . 2 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/XZ8m_ZnZ2Zg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDG375nnNtjiWLVQAa64ENQK4Qpog"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                turkish Food compilation | trying turkish street food Amazing Turkish Food compilation </h3>
+              <a href="">TASTE EXPERIENCE EN-AR</a>
+              <span>31 views . 28 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/BwZs3H_UN3k/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByAUc0mpL7ABN0y1ivxWE-yuFeIw"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Lightyear | Official Trailer </h3>
+              <a href="">Pixar</a>
+              <span>781K views . 8 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/WKg5WTjFGxg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUZloC5IFZcn2JS1_zb4EAfv3b9g"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Cresselia & Darkrai Battle 🌙 Pokémon Master Journeys | Netflix Futures </h3>
+              <a href="">Netflix Futures</a>
+              <span>343K views . 8 days Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img src="./assets/hqdefault.jpg" alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Bike 650 GT in Tamil
+              </h3>
+              <a href="">
+                Justin
+              </a>
+              <span>10B views . 3 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/NCID9M6Mk2g/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCeIADEVxCgHL5MC1XYDlxMAlDH9Q"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Titanoboa vs Purussaurus in Tamil | டைடனோபோவா vs புருஸாரஸ் | Savage Empire
+              </h3>
+              <a href="">
+                Savage Empire
+              </a>
+              <span>1.5K Views . 3 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://lh4.googleusercontent.com/proxy/AkIjVtt0hmJebg18dPxA7elRPLvFTNHvO76iAkD0dzw1hTeCrb-tyjxdCyu4hM_DzRZkoDbbXKTMOcIn9sak8MD9lW3AizLZ0lXlBoAuVGFkMx6rS9FIKMUfEPxQycasYorJmdwHQhmT=w1152-h603-s-nd"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                OMG it’s Wow Wednesday Sale Alert
+              </h3>
+              <a
+                href="https://mamaearth.in/wow-wednesday-offer?utm_source=google&utm_medium=cpc&utm_term=92272207180&gclid=Cj0KCQiAxoiQBhCRARIsAPsvo-wVeb12oxMheetejq3nQMT2qO_JcdhtsEH53ux4AWgt4mb1IRp1pVQaArCyEALw_wcB">
+                Bag your favorites & get Free Onion Oil & Shampoo + 100 Cashback. Code B2G2CB </a>
+              <span>Ad Mamaearth</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/qH7m9ik3ILs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-fbSXjbiHOI935A5pwcISpERJKQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Learn c++ in Tamil | Complete C++ tutorial in Tamil | OOP's Tutorial in Tamil </h3>
+              <a href="">
+                Tutor Joe's Stanley
+              </a>
+              <span>98K views . 5 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/k5lDRy6qjlA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLfvLOLS9oweuzE--IlHl7cZMXtQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Revised! : Yezdi Roadster Tamil Review | RevNitro </h3>
+              <a href="">
+                RevNitro
+              </a>
+              <span>1.3K views . 2 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/XZ8m_ZnZ2Zg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDG375nnNtjiWLVQAa64ENQK4Qpog"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                turkish Food compilation | trying turkish street food Amazing Turkish Food compilation </h3>
+              <a href="">TASTE EXPERIENCE EN-AR</a>
+              <span>31 views . 28 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/BwZs3H_UN3k/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByAUc0mpL7ABN0y1ivxWE-yuFeIw"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Lightyear | Official Trailer </h3>
+              <a href="">Pixar</a>
+              <span>781K views . 8 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/WKg5WTjFGxg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUZloC5IFZcn2JS1_zb4EAfv3b9g"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Cresselia & Darkrai Battle 🌙 Pokémon Master Journeys | Netflix Futures </h3>
+              <a href="">Netflix Futures</a>
+              <span>343K views . 8 days Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img src="./assets/hqdefault.jpg" alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Bike 650 GT in Tamil
+              </h3>
+              <a href="">
+                Justin
+              </a>
+              <span>10B views . 3 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/NCID9M6Mk2g/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCeIADEVxCgHL5MC1XYDlxMAlDH9Q"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Titanoboa vs Purussaurus in Tamil | டைடனோபோவா vs புருஸாரஸ் | Savage Empire
+              </h3>
+              <a href="">
+                Savage Empire
+              </a>
+              <span>1.5K Views . 3 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://lh4.googleusercontent.com/proxy/AkIjVtt0hmJebg18dPxA7elRPLvFTNHvO76iAkD0dzw1hTeCrb-tyjxdCyu4hM_DzRZkoDbbXKTMOcIn9sak8MD9lW3AizLZ0lXlBoAuVGFkMx6rS9FIKMUfEPxQycasYorJmdwHQhmT=w1152-h603-s-nd"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                OMG it’s Wow Wednesday Sale Alert
+              </h3>
+              <a
+                href="https://mamaearth.in/wow-wednesday-offer?utm_source=google&utm_medium=cpc&utm_term=92272207180&gclid=Cj0KCQiAxoiQBhCRARIsAPsvo-wVeb12oxMheetejq3nQMT2qO_JcdhtsEH53ux4AWgt4mb1IRp1pVQaArCyEALw_wcB">
+                Bag your favorites & get Free Onion Oil & Shampoo + 100 Cashback. Code B2G2CB </a>
+              <span>Ad Mamaearth</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/qH7m9ik3ILs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-fbSXjbiHOI935A5pwcISpERJKQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Learn c++ in Tamil | Complete C++ tutorial in Tamil | OOP's Tutorial in Tamil </h3>
+              <a href="">
+                Tutor Joe's Stanley
+              </a>
+              <span>98K views . 5 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/k5lDRy6qjlA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLfvLOLS9oweuzE--IlHl7cZMXtQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Revised! : Yezdi Roadster Tamil Review | RevNitro </h3>
+              <a href="">
+                RevNitro
+              </a>
+              <span>1.3K views . 2 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/XZ8m_ZnZ2Zg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDG375nnNtjiWLVQAa64ENQK4Qpog"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                turkish Food compilation | trying turkish street food Amazing Turkish Food compilation </h3>
+              <a href="">TASTE EXPERIENCE EN-AR</a>
+              <span>31 views . 28 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/BwZs3H_UN3k/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByAUc0mpL7ABN0y1ivxWE-yuFeIw"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Lightyear | Official Trailer </h3>
+              <a href="">Pixar</a>
+              <span>781K views . 8 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/WKg5WTjFGxg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUZloC5IFZcn2JS1_zb4EAfv3b9g"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Cresselia & Darkrai Battle 🌙 Pokémon Master Journeys | Netflix Futures </h3>
+              <a href="">Netflix Futures</a>
+              <span>343K views . 8 days Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img src="./assets/hqdefault.jpg" alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Bike 650 GT in Tamil
+              </h3>
+              <a href="">
+                Justin
+              </a>
+              <span>10B views . 3 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/NCID9M6Mk2g/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCeIADEVxCgHL5MC1XYDlxMAlDH9Q"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Titanoboa vs Purussaurus in Tamil | டைடனோபோவா vs புருஸாரஸ் | Savage Empire
+              </h3>
+              <a href="">
+                Savage Empire
+              </a>
+              <span>1.5K Views . 3 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://lh4.googleusercontent.com/proxy/AkIjVtt0hmJebg18dPxA7elRPLvFTNHvO76iAkD0dzw1hTeCrb-tyjxdCyu4hM_DzRZkoDbbXKTMOcIn9sak8MD9lW3AizLZ0lXlBoAuVGFkMx6rS9FIKMUfEPxQycasYorJmdwHQhmT=w1152-h603-s-nd"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                OMG it’s Wow Wednesday Sale Alert
+              </h3>
+              <a
+                href="https://mamaearth.in/wow-wednesday-offer?utm_source=google&utm_medium=cpc&utm_term=92272207180&gclid=Cj0KCQiAxoiQBhCRARIsAPsvo-wVeb12oxMheetejq3nQMT2qO_JcdhtsEH53ux4AWgt4mb1IRp1pVQaArCyEALw_wcB">
+                Bag your favorites & get Free Onion Oil & Shampoo + 100 Cashback. Code B2G2CB </a>
+              <span>Ad Mamaearth</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/qH7m9ik3ILs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-fbSXjbiHOI935A5pwcISpERJKQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Learn c++ in Tamil | Complete C++ tutorial in Tamil | OOP's Tutorial in Tamil </h3>
+              <a href="">
+                Tutor Joe's Stanley
+              </a>
+              <span>98K views . 5 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/k5lDRy6qjlA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLfvLOLS9oweuzE--IlHl7cZMXtQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Revised! : Yezdi Roadster Tamil Review | RevNitro </h3>
+              <a href="">
+                RevNitro
+              </a>
+              <span>1.3K views . 2 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/XZ8m_ZnZ2Zg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDG375nnNtjiWLVQAa64ENQK4Qpog"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                turkish Food compilation | trying turkish street food Amazing Turkish Food compilation </h3>
+              <a href="">TASTE EXPERIENCE EN-AR</a>
+              <span>31 views . 28 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/BwZs3H_UN3k/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByAUc0mpL7ABN0y1ivxWE-yuFeIw"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Lightyear | Official Trailer </h3>
+              <a href="">Pixar</a>
+              <span>781K views . 8 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/WKg5WTjFGxg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUZloC5IFZcn2JS1_zb4EAfv3b9g"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Cresselia & Darkrai Battle 🌙 Pokémon Master Journeys | Netflix Futures </h3>
+              <a href="">Netflix Futures</a>
+              <span>343K views . 8 days Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img src="./assets/hqdefault.jpg" alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Bike 650 GT in Tamil
+              </h3>
+              <a href="">
+                Justin
+              </a>
+              <span>10B views . 3 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/NCID9M6Mk2g/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCeIADEVxCgHL5MC1XYDlxMAlDH9Q"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Titanoboa vs Purussaurus in Tamil | டைடனோபோவா vs புருஸாரஸ் | Savage Empire
+              </h3>
+              <a href="">
+                Savage Empire
+              </a>
+              <span>1.5K Views . 3 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://lh4.googleusercontent.com/proxy/AkIjVtt0hmJebg18dPxA7elRPLvFTNHvO76iAkD0dzw1hTeCrb-tyjxdCyu4hM_DzRZkoDbbXKTMOcIn9sak8MD9lW3AizLZ0lXlBoAuVGFkMx6rS9FIKMUfEPxQycasYorJmdwHQhmT=w1152-h603-s-nd"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                OMG it’s Wow Wednesday Sale Alert
+              </h3>
+              <a
+                href="https://mamaearth.in/wow-wednesday-offer?utm_source=google&utm_medium=cpc&utm_term=92272207180&gclid=Cj0KCQiAxoiQBhCRARIsAPsvo-wVeb12oxMheetejq3nQMT2qO_JcdhtsEH53ux4AWgt4mb1IRp1pVQaArCyEALw_wcB">
+                Bag your favorites & get Free Onion Oil & Shampoo + 100 Cashback. Code B2G2CB </a>
+              <span>Ad Mamaearth</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/qH7m9ik3ILs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-fbSXjbiHOI935A5pwcISpERJKQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Learn c++ in Tamil | Complete C++ tutorial in Tamil | OOP's Tutorial in Tamil </h3>
+              <a href="">
+                Tutor Joe's Stanley
+              </a>
+              <span>98K views . 5 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/k5lDRy6qjlA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLfvLOLS9oweuzE--IlHl7cZMXtQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Revised! : Yezdi Roadster Tamil Review | RevNitro </h3>
+              <a href="">
+                RevNitro
+              </a>
+              <span>1.3K views . 2 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/XZ8m_ZnZ2Zg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDG375nnNtjiWLVQAa64ENQK4Qpog"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                turkish Food compilation | trying turkish street food Amazing Turkish Food compilation </h3>
+              <a href="">TASTE EXPERIENCE EN-AR</a>
+              <span>31 views . 28 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/BwZs3H_UN3k/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByAUc0mpL7ABN0y1ivxWE-yuFeIw"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Lightyear | Official Trailer </h3>
+              <a href="">Pixar</a>
+              <span>781K views . 8 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/WKg5WTjFGxg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUZloC5IFZcn2JS1_zb4EAfv3b9g"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Cresselia & Darkrai Battle 🌙 Pokémon Master Journeys | Netflix Futures </h3>
+              <a href="">Netflix Futures</a>
+              <span>343K views . 8 days Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img src="./assets/hqdefault.jpg" alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Bike 650 GT in Tamil
+              </h3>
+              <a href="">
+                Justin
+              </a>
+              <span>10B views . 3 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/NCID9M6Mk2g/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCeIADEVxCgHL5MC1XYDlxMAlDH9Q"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Titanoboa vs Purussaurus in Tamil | டைடனோபோவா vs புருஸாரஸ் | Savage Empire
+              </h3>
+              <a href="">
+                Savage Empire
+              </a>
+              <span>1.5K Views . 3 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://lh4.googleusercontent.com/proxy/AkIjVtt0hmJebg18dPxA7elRPLvFTNHvO76iAkD0dzw1hTeCrb-tyjxdCyu4hM_DzRZkoDbbXKTMOcIn9sak8MD9lW3AizLZ0lXlBoAuVGFkMx6rS9FIKMUfEPxQycasYorJmdwHQhmT=w1152-h603-s-nd"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                OMG it’s Wow Wednesday Sale Alert
+              </h3>
+              <a
+                href="https://mamaearth.in/wow-wednesday-offer?utm_source=google&utm_medium=cpc&utm_term=92272207180&gclid=Cj0KCQiAxoiQBhCRARIsAPsvo-wVeb12oxMheetejq3nQMT2qO_JcdhtsEH53ux4AWgt4mb1IRp1pVQaArCyEALw_wcB">
+                Bag your favorites & get Free Onion Oil & Shampoo + 100 Cashback. Code B2G2CB </a>
+              <span>Ad Mamaearth</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/qH7m9ik3ILs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-fbSXjbiHOI935A5pwcISpERJKQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Learn c++ in Tamil | Complete C++ tutorial in Tamil | OOP's Tutorial in Tamil </h3>
+              <a href="">
+                Tutor Joe's Stanley
+              </a>
+              <span>98K views . 5 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/k5lDRy6qjlA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLfvLOLS9oweuzE--IlHl7cZMXtQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Revised! : Yezdi Roadster Tamil Review | RevNitro </h3>
+              <a href="">
+                RevNitro
+              </a>
+              <span>1.3K views . 2 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/XZ8m_ZnZ2Zg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDG375nnNtjiWLVQAa64ENQK4Qpog"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                turkish Food compilation | trying turkish street food Amazing Turkish Food compilation </h3>
+              <a href="">TASTE EXPERIENCE EN-AR</a>
+              <span>31 views . 28 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/BwZs3H_UN3k/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByAUc0mpL7ABN0y1ivxWE-yuFeIw"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Lightyear | Official Trailer </h3>
+              <a href="">Pixar</a>
+              <span>781K views . 8 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/WKg5WTjFGxg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUZloC5IFZcn2JS1_zb4EAfv3b9g"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Cresselia & Darkrai Battle 🌙 Pokémon Master Journeys | Netflix Futures </h3>
+              <a href="">Netflix Futures</a>
+              <span>343K views . 8 days Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img src="./assets/hqdefault.jpg" alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Bike 650 GT in Tamil
+              </h3>
+              <a href="">
+                Justin
+              </a>
+              <span>10B views . 3 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/NCID9M6Mk2g/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCeIADEVxCgHL5MC1XYDlxMAlDH9Q"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Titanoboa vs Purussaurus in Tamil | டைடனோபோவா vs புருஸாரஸ் | Savage Empire
+              </h3>
+              <a href="">
+                Savage Empire
+              </a>
+              <span>1.5K Views . 3 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://lh4.googleusercontent.com/proxy/AkIjVtt0hmJebg18dPxA7elRPLvFTNHvO76iAkD0dzw1hTeCrb-tyjxdCyu4hM_DzRZkoDbbXKTMOcIn9sak8MD9lW3AizLZ0lXlBoAuVGFkMx6rS9FIKMUfEPxQycasYorJmdwHQhmT=w1152-h603-s-nd"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                OMG it’s Wow Wednesday Sale Alert
+              </h3>
+              <a
+                href="https://mamaearth.in/wow-wednesday-offer?utm_source=google&utm_medium=cpc&utm_term=92272207180&gclid=Cj0KCQiAxoiQBhCRARIsAPsvo-wVeb12oxMheetejq3nQMT2qO_JcdhtsEH53ux4AWgt4mb1IRp1pVQaArCyEALw_wcB">
+                Bag your favorites & get Free Onion Oil & Shampoo + 100 Cashback. Code B2G2CB </a>
+              <span>Ad Mamaearth</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/qH7m9ik3ILs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-fbSXjbiHOI935A5pwcISpERJKQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Learn c++ in Tamil | Complete C++ tutorial in Tamil | OOP's Tutorial in Tamil </h3>
+              <a href="">
+                Tutor Joe's Stanley
+              </a>
+              <span>98K views . 5 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/k5lDRy6qjlA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLfvLOLS9oweuzE--IlHl7cZMXtQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Revised! : Yezdi Roadster Tamil Review | RevNitro </h3>
+              <a href="">
+                RevNitro
+              </a>
+              <span>1.3K views . 2 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/XZ8m_ZnZ2Zg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDG375nnNtjiWLVQAa64ENQK4Qpog"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                turkish Food compilation | trying turkish street food Amazing Turkish Food compilation </h3>
+              <a href="">TASTE EXPERIENCE EN-AR</a>
+              <span>31 views . 28 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/BwZs3H_UN3k/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByAUc0mpL7ABN0y1ivxWE-yuFeIw"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Lightyear | Official Trailer </h3>
+              <a href="">Pixar</a>
+              <span>781K views . 8 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/WKg5WTjFGxg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUZloC5IFZcn2JS1_zb4EAfv3b9g"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Cresselia & Darkrai Battle 🌙 Pokémon Master Journeys | Netflix Futures </h3>
+              <a href="">Netflix Futures</a>
+              <span>343K views . 8 days Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img src="./assets/hqdefault.jpg" alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Bike 650 GT in Tamil
+              </h3>
+              <a href="">
+                Justin
+              </a>
+              <span>10B views . 3 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/NCID9M6Mk2g/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCeIADEVxCgHL5MC1XYDlxMAlDH9Q"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Titanoboa vs Purussaurus in Tamil | டைடனோபோவா vs புருஸாரஸ் | Savage Empire
+              </h3>
+              <a href="">
+                Savage Empire
+              </a>
+              <span>1.5K Views . 3 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://lh4.googleusercontent.com/proxy/AkIjVtt0hmJebg18dPxA7elRPLvFTNHvO76iAkD0dzw1hTeCrb-tyjxdCyu4hM_DzRZkoDbbXKTMOcIn9sak8MD9lW3AizLZ0lXlBoAuVGFkMx6rS9FIKMUfEPxQycasYorJmdwHQhmT=w1152-h603-s-nd"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                OMG it’s Wow Wednesday Sale Alert
+              </h3>
+              <a
+                href="https://mamaearth.in/wow-wednesday-offer?utm_source=google&utm_medium=cpc&utm_term=92272207180&gclid=Cj0KCQiAxoiQBhCRARIsAPsvo-wVeb12oxMheetejq3nQMT2qO_JcdhtsEH53ux4AWgt4mb1IRp1pVQaArCyEALw_wcB">
+                Bag your favorites & get Free Onion Oil & Shampoo + 100 Cashback. Code B2G2CB </a>
+              <span>Ad Mamaearth</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/qH7m9ik3ILs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-fbSXjbiHOI935A5pwcISpERJKQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Learn c++ in Tamil | Complete C++ tutorial in Tamil | OOP's Tutorial in Tamil </h3>
+              <a href="">
+                Tutor Joe's Stanley
+              </a>
+              <span>98K views . 5 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/k5lDRy6qjlA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLfvLOLS9oweuzE--IlHl7cZMXtQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Revised! : Yezdi Roadster Tamil Review | RevNitro </h3>
+              <a href="">
+                RevNitro
+              </a>
+              <span>1.3K views . 2 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/XZ8m_ZnZ2Zg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDG375nnNtjiWLVQAa64ENQK4Qpog"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                turkish Food compilation | trying turkish street food Amazing Turkish Food compilation </h3>
+              <a href="">TASTE EXPERIENCE EN-AR</a>
+              <span>31 views . 28 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/BwZs3H_UN3k/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByAUc0mpL7ABN0y1ivxWE-yuFeIw"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Lightyear | Official Trailer </h3>
+              <a href="">Pixar</a>
+              <span>781K views . 8 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/WKg5WTjFGxg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUZloC5IFZcn2JS1_zb4EAfv3b9g"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Cresselia & Darkrai Battle 🌙 Pokémon Master Journeys | Netflix Futures </h3>
+              <a href="">Netflix Futures</a>
+              <span>343K views . 8 days Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img src="./assets/hqdefault.jpg" alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Bike 650 GT in Tamil
+              </h3>
+              <a href="">
+                Justin
+              </a>
+              <span>10B views . 3 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/NCID9M6Mk2g/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCeIADEVxCgHL5MC1XYDlxMAlDH9Q"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Titanoboa vs Purussaurus in Tamil | டைடனோபோவா vs புருஸாரஸ் | Savage Empire
+              </h3>
+              <a href="">
+                Savage Empire
+              </a>
+              <span>1.5K Views . 3 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://lh4.googleusercontent.com/proxy/AkIjVtt0hmJebg18dPxA7elRPLvFTNHvO76iAkD0dzw1hTeCrb-tyjxdCyu4hM_DzRZkoDbbXKTMOcIn9sak8MD9lW3AizLZ0lXlBoAuVGFkMx6rS9FIKMUfEPxQycasYorJmdwHQhmT=w1152-h603-s-nd"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                OMG it’s Wow Wednesday Sale Alert
+              </h3>
+              <a
+                href="https://mamaearth.in/wow-wednesday-offer?utm_source=google&utm_medium=cpc&utm_term=92272207180&gclid=Cj0KCQiAxoiQBhCRARIsAPsvo-wVeb12oxMheetejq3nQMT2qO_JcdhtsEH53ux4AWgt4mb1IRp1pVQaArCyEALw_wcB">
+                Bag your favorites & get Free Onion Oil & Shampoo + 100 Cashback. Code B2G2CB </a>
+              <span>Ad Mamaearth</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/qH7m9ik3ILs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-fbSXjbiHOI935A5pwcISpERJKQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Learn c++ in Tamil | Complete C++ tutorial in Tamil | OOP's Tutorial in Tamil </h3>
+              <a href="">
+                Tutor Joe's Stanley
+              </a>
+              <span>98K views . 5 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/k5lDRy6qjlA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLfvLOLS9oweuzE--IlHl7cZMXtQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Revised! : Yezdi Roadster Tamil Review | RevNitro </h3>
+              <a href="">
+                RevNitro
+              </a>
+              <span>1.3K views . 2 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/XZ8m_ZnZ2Zg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDG375nnNtjiWLVQAa64ENQK4Qpog"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                turkish Food compilation | trying turkish street food Amazing Turkish Food compilation </h3>
+              <a href="">TASTE EXPERIENCE EN-AR</a>
+              <span>31 views . 28 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/BwZs3H_UN3k/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByAUc0mpL7ABN0y1ivxWE-yuFeIw"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Lightyear | Official Trailer </h3>
+              <a href="">Pixar</a>
+              <span>781K views . 8 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/WKg5WTjFGxg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUZloC5IFZcn2JS1_zb4EAfv3b9g"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Cresselia & Darkrai Battle 🌙 Pokémon Master Journeys | Netflix Futures </h3>
+              <a href="">Netflix Futures</a>
+              <span>343K views . 8 days Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img src="./assets/hqdefault.jpg" alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Bike 650 GT in Tamil
+              </h3>
+              <a href="">
+                Justin
+              </a>
+              <span>10B views . 3 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/NCID9M6Mk2g/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCeIADEVxCgHL5MC1XYDlxMAlDH9Q"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Titanoboa vs Purussaurus in Tamil | டைடனோபோவா vs புருஸாரஸ் | Savage Empire
+              </h3>
+              <a href="">
+                Savage Empire
+              </a>
+              <span>1.5K Views . 3 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://lh4.googleusercontent.com/proxy/AkIjVtt0hmJebg18dPxA7elRPLvFTNHvO76iAkD0dzw1hTeCrb-tyjxdCyu4hM_DzRZkoDbbXKTMOcIn9sak8MD9lW3AizLZ0lXlBoAuVGFkMx6rS9FIKMUfEPxQycasYorJmdwHQhmT=w1152-h603-s-nd"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                OMG it’s Wow Wednesday Sale Alert
+              </h3>
+              <a
+                href="https://mamaearth.in/wow-wednesday-offer?utm_source=google&utm_medium=cpc&utm_term=92272207180&gclid=Cj0KCQiAxoiQBhCRARIsAPsvo-wVeb12oxMheetejq3nQMT2qO_JcdhtsEH53ux4AWgt4mb1IRp1pVQaArCyEALw_wcB">
+                Bag your favorites & get Free Onion Oil & Shampoo + 100 Cashback. Code B2G2CB </a>
+              <span>Ad Mamaearth</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/qH7m9ik3ILs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-fbSXjbiHOI935A5pwcISpERJKQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Learn c++ in Tamil | Complete C++ tutorial in Tamil | OOP's Tutorial in Tamil </h3>
+              <a href="">
+                Tutor Joe's Stanley
+              </a>
+              <span>98K views . 5 Months Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/k5lDRy6qjlA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLfvLOLS9oweuzE--IlHl7cZMXtQ"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Revised! : Yezdi Roadster Tamil Review | RevNitro </h3>
+              <a href="">
+                RevNitro
+              </a>
+              <span>1.3K views . 2 hours Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/XZ8m_ZnZ2Zg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDG375nnNtjiWLVQAa64ENQK4Qpog"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                turkish Food compilation | trying turkish street food Amazing Turkish Food compilation </h3>
+              <a href="">TASTE EXPERIENCE EN-AR</a>
+              <span>31 views . 28 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/BwZs3H_UN3k/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByAUc0mpL7ABN0y1ivxWE-yuFeIw"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Lightyear | Official Trailer </h3>
+              <a href="">Pixar</a>
+              <span>781K views . 8 minutes Ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video-thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/WKg5WTjFGxg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUZloC5IFZcn2JS1_zb4EAfv3b9g"
+              alt="banner">
+          </div>
+          <div class="video-details">
+            <div class="author">
+              <img src="./assets/profile.jpg" alt="profile">
+            </div>
+            <div class="title">
+              <h3>
+                Cresselia & Darkrai Battle 🌙 Pokémon Master Journeys | Netflix Futures </h3>
+              <a href="">Netflix Futures</a>
+              <span>343K views . 8 days Ago</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+</body>
+
+</html>
